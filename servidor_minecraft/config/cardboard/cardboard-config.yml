@@ -1,0 +1,42 @@
+# This is the Configuration file for Cardboard
+# config-version internal use, do not modify
+config-version: 1
+
+# Invoke ChatEvent from PlayerManager instead of NetworkHandler
+# This can solve issues with other mods that overwrite the chat method,
+use_alternative_chat_mixin: false
+
+# Registry Command Fix
+# Commands like "/give" or "/setblock" don't work when
+# executed by entities unless "minecraft:" prefix is specified.
+# Enabling will break chat signatures.
+registry-command-fix: true
+
+# Reflection Remapper Skip
+# Our current Reflection remapper might cause issues with some plugins
+# You can add plugin names here (that dont use Reflection) to our SKIP array
+skip_reflection_for_plugin:
+	- vault
+	- worldguard
+
+# Forcefully Disable Mixins - If a mixin is causing an issue you can disable it here
+mixin-force-disable:
+	- None
+
+# Register '/mods' Command
+# This will add a command to view all Fabric mods similar to /plugins
+add-mods-command: true
+
+# Console Logging - 
+# 	Log Prefix: Add a prefix to loggers with the plugins's ID like in Paper (ex: '[Essentials]')
+# 	Color Strip: will strip all Bukkit ChatColor info from Console text
+# (If BetterFabricConsole is present, these will override to false & false)
+prefix-loggers: true
+should-strip-console-color: false
+
+# Debug Test Stuff
+debug_print_event_call: false
+debug_print_all_calls: false
+debug_player: false
+debug_other: false
+debug_print_remaputil: false

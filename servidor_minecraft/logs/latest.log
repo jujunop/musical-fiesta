@@ -1,0 +1,162 @@
+[04:27:04] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.2
+[04:27:04] [main/INFO]: Loading 50 mods:
+	- cupboard 1.21.10-3.0
+	- fabric-api 0.138.3+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.6+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.49+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.17.0+ff7bc77d6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.33+cd3b9e596f
+	   |-- fabric-data-generation-api-v1 23.2.27+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.11+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.27+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.67+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.14+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.4+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.28+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.2.0+39709ef06f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.2+3706cdf36f
+	   |-- fabric-renderer-indigo 4.1.3+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.2.0+bee81f016f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.3.1+d4d4122a6f
+	   |-- fabric-resource-loader-v1 1.0.4+14959b836f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.13+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fabrictailor 2.8.1
+	   |-- config2brigadier 2.1.0
+	   \-- fabric-permissions-api-v0 0.5.0
+	- fallingtree 1.21.10.1
+	- ferritecore 8.0.2
+	- java 21
+	- jei 26.2.0.28
+	- mine-spawners 1.6.5
+	- minecraft 1.21.10
+	- smoothchunk 1.21-4.1
+[04:27:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/musical-fiesta/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:27:05] [main/INFO]: Compatibility level set to JAVA_17
+[04:27:05] [main/INFO]: Compatibility level set to JAVA_21
+[04:27:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04:27:11] [main/INFO]: Loaded config for: cupboard.json
+[04:27:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:27:14] [main/INFO]: Loaded 1461 recipes
+[04:27:14] [main/INFO]: Loaded 1574 advancements
+[04:27:14] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.412 ms
+[04:27:14] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[04:27:14] [Server thread/INFO]: Loading properties
+[04:27:14] [Server thread/INFO]: Default game type: SURVIVAL
+[04:27:14] [Server thread/INFO]: Generating keypair
+[04:27:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:27:14] [Server thread/INFO]: Using epoll channel type
+[04:27:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:27:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:27:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:27:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:27:14] [Server thread/INFO]: Preparing level "world"
+[04:27:14] [Server thread/WARN]: Mixin apply for mod smoothchunk failed smoothchunk.mixins.json:ChunkMapMixin from mod smoothchunk -> net.minecraft.class_3898: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_39925 in smoothchunk.mixins.json:ChunkMapMixin from mod smoothchunk was not located in the target class net.minecraft.class_3898. Using refmap smoothchunk-fabric-refmap.json
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_39925 in smoothchunk.mixins.json:ChunkMapMixin from mod smoothchunk was not located in the target class net.minecraft.class_3898. Using refmap smoothchunk-fabric-refmap.json
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1292) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.18.2.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at knot/net.minecraft.class_3215.<init>(class_3215.java:103) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3218.<init>(class_3218.java:253) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_3786(MinecraftServer.java:427) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:392) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3176.method_3823(class_3176.java:264) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:737) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:297) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[04:27:14] [Server thread/INFO]: Loading 0 persistent chunks...
+[04:27:15] [Server thread/INFO]: Preparing spawn area: 100%
+[04:27:15] [Server thread/INFO]: Time elapsed: 102 ms
+[04:27:15] [Server thread/INFO]: Done (0.509s)! For help, type "help"
+[04:27:15] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[04:27:20] [Server thread/INFO]: SrLipord[/127.6.175.241:34241] logged in with entity id 54 at (-361.44367517154404, 94.0, -3702.1494173543397)
+[04:27:20] [Server thread/INFO]: SrLipord joined the game
+[04:27:27] [Server thread/INFO]: Pibe_Mclovin[/127.214.194.204:38257] logged in with entity id 449 at (-424.1117246399983, 79.0, -3904.243390924715)
+[04:27:27] [Server thread/INFO]: Pibe_Mclovin joined the game
+[04:27:29] [Server thread/INFO]: GgSinTeam[/127.191.247.106:44207] logged in with entity id 556 at (-217.23881542476715, 120.0, -3613.4617261515473)
+[04:27:29] [Server thread/INFO]: GgSinTeam joined the game
+[04:27:30] [Server thread/INFO]: Gathorin[/127.60.211.35:53595] logged in with entity id 662 at (-557.5651348159146, 49.200000047683716, -2993.141083539248)
+[04:27:30] [Server thread/INFO]: Gathorin joined the game
+[04:27:36] [Server thread/INFO]: N31X_[/127.207.22.108:34787] logged in with entity id 1044 at (-226.85066694084495, 120.0, -3611.48302548041)
+[04:27:36] [Server thread/INFO]: N31X_ joined the game
+[04:29:12] [Server thread/INFO]: Vector[/127.144.74.153:32845] logged in with entity id 1884 at (-297.0442543672396, 119.0, -3478.4111415327184)
+[04:29:12] [Server thread/INFO]: Vector joined the game
+[04:45:31] [Server thread/INFO]: SrLipord has made the advancement [We Need to Go Deeper]
+[04:45:49] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[04:45:49] [Server thread/INFO]: SrLipord left the game
+[04:45:52] [Server thread/INFO]: Vector has made the advancement [We Need to Go Deeper]
+[04:46:54] [Server thread/INFO]: SrLipord[/127.6.175.241:43863] logged in with entity id 14213 at (-34.30000001192093, 101.0, -465.30000001192093)
+[04:46:54] [Server thread/INFO]: SrLipord joined the game
+[04:48:22] [Server thread/INFO]: Vector lost connection: Disconnected
+[04:48:22] [Server thread/INFO]: Vector left the game
+[04:51:30] [Server thread/INFO]: [Not Secure] <GgSinTeam> [x:-35, y:102, z:-465, dim:minecraft:the_nether]
+[04:55:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=85, z=-280} class_2338{x=41, y=84, z=-279}
+[04:55:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=85, z=-280} class_2338{x=41, y=84, z=-279}
+[04:56:01] [Server thread/INFO]: N31X_ lost connection: Disconnected
+[04:56:01] [Server thread/INFO]: N31X_ left the game
+[04:56:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=88, z=-382} class_2338{x=41, y=90, z=-383}
+[04:57:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=41, y=89, z=-406} class_2338{x=41, y=89, z=-404}
+[04:59:22] [Server thread/INFO]: [Not Secure] <SrLipord> duro?
+[05:00:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-27, y=96, z=-471} class_2338{x=-28, y=96, z=-471}
+[05:00:36] [Server thread/WARN]: Pibe_Mclovin moved too quickly! -8.389744393424678,-2.419999986886978,5.141462832245452
+[05:08:51] [Server thread/INFO]: GgSinTeam lost connection: Disconnected
+[05:08:51] [Server thread/INFO]: GgSinTeam left the game
+[05:17:45] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[05:17:45] [Server thread/INFO]: SrLipord left the game
+[05:18:30] [Server thread/INFO]: SrLipord[/127.6.175.241:38757] logged in with entity id 37695 at (-561.2933987267812, -51.0, -2797.3819513494936)
+[05:18:30] [Server thread/INFO]: SrLipord joined the game
+[05:20:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-555, y=-39, z=-2671} class_2338{x=-551, y=-38, z=-2671}
+[05:20:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-549, y=-39, z=-2671} class_2338{x=-549, y=-38, z=-2675}
+[05:20:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-549, y=-39, z=-2671} class_2338{x=-556, y=-38, z=-2675}
+[05:24:40] [Server thread/INFO]: Pibe_Mclovin lost connection: Disconnected
+[05:24:40] [Server thread/INFO]: Pibe_Mclovin left the game
+[05:26:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-558, y=49, z=-3645} class_2338{x=-558, y=64, z=-3673}
+[05:26:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-558, y=63, z=-3673} class_2338{x=-558, y=64, z=-3672}
+[05:36:32] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[05:36:32] [Server thread/INFO]: SrLipord left the game
+[05:47:38] [Server thread/INFO]: SrLipord[/127.6.175.241:54981] logged in with entity id 46199 at (-556.0287997308012, -38.0, -2672.1978957511915)
+[05:47:38] [Server thread/INFO]: SrLipord joined the game
+[05:49:10] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[05:49:10] [Server thread/INFO]: SrLipord left the game
+[05:50:08] [Server thread/INFO]: SrLipord[/127.6.175.241:51631] logged in with entity id 46563 at (-561.1417195415315, -49.0, -2747.300000011921)
+[05:50:08] [Server thread/INFO]: SrLipord joined the game
